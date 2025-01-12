@@ -7,7 +7,7 @@ const SectorOne: Component = () => {
         <div class={styles.card0}>
 
             <div class={styles.card1}>
-                <p>sdad</p>
+                <p>Testando o git hub pages</p>
             </div>
 
             <div class={styles.card2}>
