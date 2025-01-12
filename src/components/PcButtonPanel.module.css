@@ -1,0 +1,63 @@
+@media (min-width: 1100px) {
+
+    .pcButtonPanel {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 60%;
+        margin: 1%;
+        height: 60%;
+        background: BLACK;
+        border-radius: 2vh;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 120%;
+        font-weight: bold;
+        border-color: white;
+        color: WHITE;
+    }
+
+
+    .buttonOrg {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .pcButtonPanel {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+
+    .buttonOrg {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+
+
+
