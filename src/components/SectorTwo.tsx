@@ -15,7 +15,6 @@ const SectorTwo: Component = () => {
                 <img class={styles.card1} src={showcase_1}> </img>
                 <img class={styles.card1} src={showcase_3}> </img>
                 <img class={styles.card1} src={showcase_2}> </img>
-                <img class={styles.card1} src={showcase_4}> </img>
                 <img class={styles.card1} src={instagram_icon}> </img>
                 <img class={styles.card1} src={instagram_icon}> </img>
                 <img class={styles.card1} src={instagram_icon}> </img>
