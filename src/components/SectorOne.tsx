@@ -11,7 +11,7 @@ const SectorOne: Component = () => {
             </div>
 
             <div class={styles.card2}>
-                <p></p>
+                <p>Testando o git hub pages 2</p>
             </div>
 
         </div>
