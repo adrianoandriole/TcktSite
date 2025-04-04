@@ -7,11 +7,11 @@ const SectorOne: Component = () => {
         <div class={styles.card0}>
 
             <div class={styles.card1}>
-                <p>Testando o git hub pages</p>
+                <p>Testando o versel</p>
             </div>
 
             <div class={styles.card2}>
-                <p>Testando o git hub pages 2</p>
+                <p>Testando o versel</p>
             </div>
 
         </div>
