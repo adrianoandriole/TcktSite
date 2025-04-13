@@ -13,11 +13,11 @@ const PcButtonPanelProps: Component<PcButtonPanelProps> = (props) => {
             <div class={styles.buttonOrg}>
 
                 <button class={styles.button1} onClick={() => props.changeTab("sectorOne")}>
-                    PROJECTS
+                    Home
                 </button>
 
                 <button class={styles.button1} onClick={() => props.changeTab("sectorTwo")}>
-                    SHOWCASE
+                    Profile
                 </button>
 
             </div>
