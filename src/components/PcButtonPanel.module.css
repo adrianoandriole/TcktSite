@@ -45,7 +45,22 @@
 
     }
 
-
+    .button1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 60%;
+        margin: 1%;
+        height: 60%;
+        background: BLACK;
+        border-radius: 2vh;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 120%;
+        font-weight: bold;
+        border-color: white;
+        color: WHITE;
+    }
 
     .buttonOrg {
         width: 100%;
