@@ -1,21 +1,35 @@
-import {Component} from "solid-js";
+import { Component } from "solid-js";
 import styles from "./SectorTwo.module.css";
-import showcase_1 from "../assets/showcase_1.png";
-import showcase_3 from "../assets/showcase_3.png";
-import showcase_2 from "../assets/showcase_2.png";
 
 const SectorTwo: Component = () => {
     return (
-        <div class={styles.myProjects}>
-
-            <div class={styles.container}>
-
-                <img class={styles.card1} src={showcase_1} alt="Imagem do projeto 1"/>
-                <img class={styles.card1} src={showcase_3} alt="Imagem do projeto 3"/>
-                <img class={styles.card1} src={showcase_2} alt="Imagem do projeto 2"/>
-
-            </div>
-
+        <div class={styles.card1}>
+            {/* From Uiverse.io by Na3ar-17 */}
+            <label class={styles.label}>
+        <span class={styles.icon}>
+          <svg
+              class="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="none"
+              viewBox="0 0 24 24"
+          >
+            <path
+                stroke="currentColor"
+                stroke-width="1.25"
+                d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+          </svg>
+        </span>
+                <input
+                    type="text"
+                    class={styles.input}
+                    placeholder="Enter name"
+                    autocomplete="off"
+                />
+            </label>
         </div>
     );
 };

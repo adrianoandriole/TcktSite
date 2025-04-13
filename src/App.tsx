@@ -20,7 +20,7 @@ const App: Component = () => {
 
             <div class={styles.header1}>
 
-                <p> Adriano Andriole Costa </p>
+                <p> www.tckt.com.br </p>
 
             </div>
 
@@ -41,7 +41,7 @@ const App: Component = () => {
 
             <div class={styles.header2}>
 
-                <p> "v1" </p>
+                <p>  </p>
 
             </div>
 
