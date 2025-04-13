@@ -41,7 +41,7 @@ const App: Component = () => {
 
             <div class={styles.header2}>
 
-                <p> "v1.0.0" </p>
+                <p> "v1" </p>
 
             </div>
 
